@@ -1,0 +1,12 @@
+.cover__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (min-width: 700px) {
+  .cover__text-container {
+    gap: 32px;
+  }
+}
